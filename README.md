@@ -34,6 +34,10 @@ individual features to the cluster assignment. This visualization helps explain 
 ![Local Exp](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/local_shap.png)
 
 # D. Clusters of Domain Names Based on String Match
-We also cluster the websites based on the string matching domain name similarity (95% similarity thresholds) which reveals several websites uses same domain name while registering the websites which indicates an attempt from one campaign individual/group just tweaking the top levle domain and keeping the same domain name in all the other websites. Figure ([Domain Name Cluster Only](#domain-name-cluster)) shows some of the same domain names with frequency that were used in different websites.
+We also cluster the websites based on the string matching domain name similarity (95% similarity thresholds) which reveals several websites uses same domain name while registering the websites which indicates an attempt from one campaign individual/group just tweaking the top-level domain and keeping the same domain name in all the other websites. Figure ([Domain Name Cluster Only](#domain-name-cluster)) shows some of the same domain names with frequency that were used in different websites. This finding reveals that some triggered words like **help**, **support**, **help**, **aid** were frequently used.
 ![Domain Name Cluster Only](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/domain_string_cluster.png)
+
+# E. Analysis on Top Level Domain(TLD)
+Here, we also provide the TLD level analysis which discloses some patterns. 
+![Country Level Domai](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/cc_TLD.png)
 
