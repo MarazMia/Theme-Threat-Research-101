@@ -1,18 +1,21 @@
+# Event-Themed Research: Russia-Ukraine War Case Study
 This document provides an overview of the methodology and results for clustering analysis performed on a dataset of websites. The analysis includes the selection of the optimal number of clusters, feature reduction, and local explanations for cluster assignments. Below is a summary of the key sections and findings.
 
 A. Details on Selecting Number of Clusters (k) -> To determine the optimal number of clusters (k) for K-Means, K-Medoids, and Gaussian Mixture Model (GMM) clustering, we employed several evaluation techniques:
 
-Calinski-Harabasz Score:
+**Calinski-Harabasz Score**:
 
 Used for K-Means and K-Medoids clustering.
 
-The elbow graph (Figure \ref{fig:CalinskiElbow }) suggests that k=3 is optimal, as the score decreases significantly beyond this point.
+The elbow graph (Figure [Calinski-Harabasz Elbow Graph](#calinski-harabasz-elbow-graph)) suggests that k=3 is optimal, as the score decreases significantly beyond this point.
 
-Hierarchical Clustering (Dendrogram):
+![Calinski-Harabasz Elbow Graph](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/caliski_elbow.png)
+
+**Hierarchical Clustering (Dendrogram):**
 
 The dendrogram (Figure \ref{fig:dendrogram }) indicates that a Ward linkage distance of 47.5 splits the data into three clusters (k=3).
 
-AIC and BIC Scores for GMM:
+**AIC and BIC Scores for GMM:**
 
 The elbow graph (Figure \ref{fig:AIC_BIC_elbow }) suggests two possible candidates for k: 3 and 5.
 
