@@ -8,24 +8,24 @@ To determine the optimal number of clusters (k), first we utilized our baseline 
 
 Used for K-Means and K-Medoids clustering.
 
-The elbow graph ([Calinski-Harabasz Elbow Graph](#calinski-harabasz-elbow-graph)) suggests that k=3 is optimal, as the score decreases significantly beyond this point.
+The elbow graph ([A.1](#calinski-harabasz-elbow-graph)) suggests that k=3 is optimal, as the score decreases significantly beyond this point.
 
-![Calinski-Harabasz Elbow Graph](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/caliski_elbow.png)
+![A.1](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/caliski_elbow.png)
 
 **Hierarchical Clustering (Dendrogram):**
 
-The dendrogram ([Dendrogram Graph](#dendrogram-graph)) indicates that a Ward linkage distance of 47.5 splits the data into three clusters (k=3).
-![Dendrogram Graph](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/Dendrogram.png)
+The dendrogram ([A.2](#dendrogram-graph)) indicates that a Ward linkage distance of 47.5 splits the data into three clusters (k=3).
+![A.2](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/Dendrogram.png)
 
 **AIC and BIC Scores for GMM:**
 
-The elbow graph ([AIC-BIC Graph](#aic-bic-graph)) suggests two possible candidates for k: 3 and 5.
-![AIC-BIC Graph](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/AIC_BIC.png)
+The elbow graph ([A.3](#aic-bic-graph)) suggests two possible candidates for k: 3 and 5.
+![A.3](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/AIC_BIC.png)
 
 # B. Feature Reduction Based on Pair-Wise Pearson Correlation Coefficient
-A feature correlation heatmap ([Pearson's-Corr-Heatmap](#pearson-corr-heatmap)) was used to identify highly correlated features.
+A feature correlation heatmap ([B.1](#pearson-corr-heatmap)) was used to identify highly correlated features.
 Features with a Pearson correlation coefficient greater than 0.6 were discarded to reduce redundancy and improve model performance.
-![Pearson's-Corr-Heatmap](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/feature_correlation.png)
+![B.1](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/feature_correlation.png)
 
 # C. Local SHAP Explanation to Disclose Why Any Individual Website Resides in a Particular Cluster
 Local explanations for cluster assignments were generated using SHAP (SHapley Additive exPlanations).
