@@ -33,7 +33,6 @@ Figure ([Local_Exp](#local-exp)) provides a waterfall plot for a random instance
 individual features to the cluster assignment. This visualization helps explain why a specific website was assigned to a particular cluster.
 ![Confusion Matrix](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/supervised_model_cm.png)
 ![Global Absolute Mean Bar](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/majority_bar.png)
-![Global Mean Bar](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/majority_raw_mean_bar.png)
 ![Local Exp](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/local_shap.png)
 
 # D. Clusters of Domain Names Based on String Match
