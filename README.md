@@ -31,7 +31,10 @@ Features with a Pearson correlation coefficient greater than 0.6 were discarded 
 Local explanations for cluster assignments were generated using SHAP (SHapley Additive exPlanations).
 Figure ([Local_Exp](#local-exp)) provides a waterfall plot for a random instance from cluster C_2, showing the contribution of
 individual features to the cluster assignment. This visualization helps explain why a specific website was assigned to a particular cluster.
+![Confusion Matrix](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/supervised_model_cm.png)
 ![Local Exp](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/local_shap.png)
+![Global Absolute Mean Bar](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/majority_bar.png)
+![Global Mean Bar](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/ASIA_CCS_Diagrams/majority_raw_mean_bar.png)
 
 # D. Clusters of Domain Names Based on String Match
 We also cluster the websites based on the string matching domain name similarity (95% similarity thresholds) which reveals several websites uses same domain name while registering the websites which indicates an attempt from one campaign individual/group just tweaking the top-level domain and keeping the same domain name in all the other websites. Figure ([Domain Name Cluster Only](#domain-name-cluster)) shows some of the same domain names with frequency that were used in different websites. This finding reveals that some triggered words like **help**, **support**, **help**, **aid** were frequently used.
