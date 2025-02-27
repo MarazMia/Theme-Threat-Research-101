@@ -1,0 +1,17 @@
+# This file contains only newly registered domain names identified by
+# DomainTools that contain the strings "ukraine" or "ukrainian". No analysis has been done to
+# determine if these domains are malicious or benign. Use at your own risk.
+# This data was released by DomainTools and may be re-used, with Attribution (CC-BY).
+euukraine.co.uk
+nano-ukraine.store
+ukrainebeauties.com
+brb-ukraine.de
+unitednavkoloukraine.com
+euro-ukraine.co.uk
+ukraineworld.ca
+hent-ukraine.com
+helpukrainian.gq
+helpukraine.dev
+supportiukraine.com
+xdpukraine.com
+ukrainesite.com.ua
