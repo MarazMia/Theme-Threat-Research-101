@@ -40,7 +40,7 @@ We also cluster the websites based on the string matching domain name similarity
 ![Domain Name Cluster Only](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/Diagrams/domain_string_cluster.png)
 
 # E. Analysis of Top Level Domain(TLD)
-Here, we also provide the TLD level analysis which discloses some patterns. 
-![All TLD](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/Diagrams/all_TLD.png)
+Here, we also provide the TLD level analysis which discloses some patterns. The below image ([E.1](#E.1)) displays overall top 10 TLD usage in the entire dataset. 
+![E.1](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/Diagrams/all_TLD.png)
 ![Country Level Domai](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/Diagrams/cc_TLD.png)
 
