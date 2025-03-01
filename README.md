@@ -1,5 +1,5 @@
 # Event-Themed Research: Russia-Ukraine War Case Study
-This document provides an overview of the methodology and results for clustering analysis performed on a dataset of websites. The analysis includes the selection of the optimal number of clusters, feature reduction, and local explanations for cluster assignments. Below is a summary of the key sections and findings.
+The original code and data are given inside the directories with the same name within the project directory of **Russia-Ukraine-War-Theme**. This document provides an overview of the methodology and results for clustering analysis performed on a dataset of websites. The analysis includes the selection of the optimal number of clusters, feature reduction, and local explanations for cluster assignments. Below is a summary of the key sections and findings.
 
 # A. Details on Selecting Number of Clusters (k)
 To determine the optimal number of clusters (k), first, we utilized our baseline evaluation method from **Silhouette Score**, and then for further justification for K-Means, K-Medoids, and Gaussian Mixture Model (GMM) clustering, we employed several evaluation techniques:
@@ -50,6 +50,7 @@ We also cluster the websites based on the string matching domain name similarity
 Here, we also provide the TLD level analysis, which discloses some patterns. The below image ([E.1](#E.1)) displays overall top 10 TLD usage in the entire dataset. The most frequent ones are .com, .org, .de .ch, and .net. Here, we observe that the majority of the TLDs are country code TLDs (ccTLD), so we further provide a separate bar plot only for the ccTLDs with the one-year registration cost.
 ![E.1](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/Diagrams/all_TLD.png)
 
-This finding from image ([E.2](#E.2))suggests that, as the event mainly happened in the European regions, a significant portion of the websites are also registered from this and the surrounding regions.
+This finding from image ([E.2](#E.2))suggests that, as the event mainly happened in the European regions, a significant portion of the websites are also registered from this and the surrounding regions as TLDs like .eu (European Union), .ch (Switzerland), .nl
+(Netherlands), .uk (United Kingdom), .at (Austria), .dk (Denmark), and .fr(France) are from the European side.
 ![E.2](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/Diagrams/cc_TLD.png)
 
