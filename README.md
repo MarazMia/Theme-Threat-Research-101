@@ -20,7 +20,7 @@ The dendrogram ([A.2](#dendrogram-graph)) indicates that a Ward linkage distance
 
 **AIC and BIC Scores for GMM**
 
-The value of k is confirmed as 3 from the individual avg Shilloute scroe figure ([A.3.1](#ind-shil-gmm)) as all individual cluster's Silhouette score should be greater than or equal to the average while also considering maximizing the k. All of these criteria are fulfilled when k=3.
+From the figure 3(a) in the paper, it may seems that k=2 is the perfect value. But, the value of k is confirmed as 3 from the individual avg Shilloute scroe figure ([A.3.1](#ind-shil-gmm)) as all individual cluster's Silhouette score should be greater than or equal to the average while also considering maximizing the k. All of these criteria are fulfilled when k=3.
 ![A.3.1](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/Diagrams/ind_shil_gmm.png)
 
 The elbow graph ([A.3](#aic-bic-graph)) suggests two possible candidates for k: 3 and 5.
