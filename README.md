@@ -16,6 +16,7 @@ The elbow graph ([A.1](#calinski-harabasz-elbow-graph)) suggests that k=3 is opt
 **Hierarchical Clustering (Dendrogram)**
 
 The dendrogram ([A.2](#dendrogram-graph)) indicates that a Ward linkage distance of 47.5 splits the data into three clusters (k=3).
+
 ![A.2](https://github.com/MarazMia/Theme-Threat-Research-101/blob/main/Russia-Ukraine-War-Theme/Diagrams/Dendrogram.png)
 
 **AIC and BIC Scores for GMM**
